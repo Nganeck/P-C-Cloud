@@ -42,7 +42,7 @@
     flex-direction: row;
     border-radius: 10px;
     height: 70%;
-    width: 50%;
+    width: 60%;
     border-style: solid;
     border-width: 0.05cm;
     border-color: #a881e3;
@@ -52,7 +52,7 @@ input{
     margin-top: 0px;
     margin-bottom: 10px;
     
-    
+    border: white;
     height: 80%;
     
 }
@@ -62,7 +62,8 @@ input:focus{
 
 }
 .iconSpan{
-    
+    height: 60%;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     min-width: 12.5%;
@@ -74,10 +75,14 @@ input:focus{
 }
 .nameAndIcon{
     display: flex;
-    min-width: 20%;
-    align-items: top;
-    justify-content: flex-end;
-    border-left-color: gray;
+    height: 60%;
+    min-width: 15%;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left-color: rgb(218, 205, 205);
     border-left-style: solid;
 
 }   

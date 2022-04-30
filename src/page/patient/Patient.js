@@ -12,7 +12,7 @@ const Patient = (props) =>{
                 <span className= {classes.siteName}>P&C CLOUD</span>
                 <span className={classes.search}> 
                     <SearchSvg></SearchSvg>
-                    <input/> 
+                    <input placeholder='Search...'/> 
                 </span>
                 <span className={classes.iconSpan}>
                     <span><img src={HomeIcon}/></span>
