@@ -1,0 +1,27 @@
+.mainContent {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+}
+.buttonHolderDiv{
+    background-color: white;
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 500px;
+
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+.topDiv {
+    background-color: rgb(153, 0, 255);
+    display: flex;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    justify-content: center;
+    align-items: center;
+    z-index: 10px;
+    box-shadow:  0px 1px px;
+}

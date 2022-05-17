@@ -1,0 +1,37 @@
+.card{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(238, 225, 225);
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(240, 248, 255, 0.589);
+    border-radius: 4px;
+    
+}
+.role{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: inherit;
+
+    
+}
+
+.buttonDiv{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonDiv button {
+    height: 40%;
+    width: 60%;
+    margin: auto;
+    margin-right: 5%;
+    background-color: white;
+    border-radius: 6px;
+
+}
+

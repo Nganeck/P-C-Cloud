@@ -1,0 +1,90 @@
+/* .sideMenu{
+    width: 10%;
+    height: 100%;
+    background-color: #ae3cdf; 
+    min-width: 150px;
+    display: flex;
+    align-items: baseline;
+    
+    
+    
+
+}
+.sideMenu li {
+    list-style: none;
+}
+.sideMenu nav ul{
+    background-color: blue;
+    display: inline;
+    
+    
+}
+.sideMenu a {
+    text-decoration: none;
+    color: white
+}
+
+.sideMenu li svg {
+    color: rgb(54, 52, 52);
+    margin-bottom: -5px;
+    margin-right: 5px;
+}
+
+.active{
+    border-bottom-style: solid ;
+    border-bottom-color: rgb(62, 62, 245);
+    color:  blue;
+    
+} */
+.sideMenu{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    min-width: 120px;
+    height: 100%;
+    background-color: #ae3cdf;
+    color: white;
+} 
+.sideMenu header{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.sideMenu ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 1px;
+    
+}
+.sideMenu ul{
+
+    list-style: none;
+}
+.sideMenu li{
+    width: 100%;
+    left: 0px;
+    display: flex;
+    align-items: flex-start;
+    margin: 3px;
+}
+
+.sideMenu svg {
+    margin-top: 0px;
+    height: 16px;
+    color: #060507;
+}
+.sideMenu span{
+    margin-bottom: 1px ;
+    padding-bottom: 10px;
+    height: 20px;
+}
+.sideMenu a{
+    color: white;
+    text-decoration: none;
+}
+

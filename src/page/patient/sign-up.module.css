@@ -1,0 +1,59 @@
+.firstNameLastName{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.signUpForm{
+    height: 13%;
+}
+.signUpForm input {
+    width: 100%;
+    border-style: none;
+    margin-top: 2.5%;
+    margin-bottom:2.5%;
+}
+
+.firstNameLastName input{
+    width: 40%;
+}
+.termsAndConditions{
+    display: inline-flex;
+    width: fit-content;  
+}
+.termsText{
+    font-size: smaller;
+    color:rgb(66, 65, 65);
+}
+
+.signUpButtonDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+
+}
+.signUpButtonDiv button{
+    background-color: rgb(240, 66, 211);
+    border-radius: 10px;
+    border-style: none;
+    width: 120px;
+    height: 30px;
+}
+.signUpButtonDiv button:active{
+    background-color: rgb(216, 20, 183);
+}
+.signUpForm a{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.errorMessage{
+    display: flex;
+    justify-content: center;
+    color:rgba(255, 0, 0, 0.836);
+    border-color: red;
+    border-style: solid;
+    border-radius: 5px;
+}
+

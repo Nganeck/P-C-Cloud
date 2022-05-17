@@ -1,0 +1,126 @@
+/* .card{
+    margin: auto;
+    padding: 0px;
+    background-color: rgb(192, 26, 151);
+    max-height: 50vh;
+    min-height: 500px;
+    max-width: 50vw;
+    min-width: 500px;
+}
+.leftSideDiv{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 500px;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+}
+.leftSideDiv, h1{
+    text-align: center;
+
+}
+.form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    
+    height: 50%;
+}
+.form, input{
+    margin-top: 15%;
+    width: 80%;
+    border-top: none;
+    font-stretch: wider;
+    font-size: large;
+    border-left: none;
+    border-right: none;
+    border-bottom: rgba(73, 68, 68, 0.034);
+    border-bottom-style: ridge;
+    border-width: 3px;
+  
+}
+
+
+.check-remember{
+    width: 10px;
+    height: 10px;
+    margin-top: 20%;
+    margin-bottom: 10px;
+    
+    
+}
+button{
+    background-color: rgb(192, 26, 151);
+    margin: auto;
+    border-radius: 5px;
+    height: 15%;
+    width: 50%;
+} */
+
+.loginForm input:focus{
+
+    border-style: none;
+
+}
+.loginForm input{
+    border-style: none;
+}
+.namePasswordDiv{
+
+    width: 100%;
+    height: 20%;
+    margin-bottom: 10%;
+    
+    
+}
+.namePasswordDiv input{
+    height: 25%;
+    margin-top: 2%;
+    
+    height: 50%;
+    font-size: 100%;
+    width: 100%;
+}
+
+.checkAndForgot{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.checkboxDiv{
+    display: flex;
+    width: 50%;
+    left: 0px;
+    align-items: flex-start;
+}
+.loginForm input[type='checkbox']{
+    border-top-color: white;
+    box-shadow: none;
+    vertical-align: middle;
+    position: relative;
+    bottom: 0px;
+
+}
+.loginForm a{
+    text-decoration: none;
+}
+.forgotPasswordDiv{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.logInButton{
+    margin-top: 30px;
+    background-color: rgb(195, 43, 226);;
+    border-color: rgb(195, 43, 226);;
+    border-radius: 5px;
+    color: white;
+    height: 25px;
+    width: 50%;
+    max-width: 150px;
+}
+.error{
+    color: rgb(255, 0, 0);
+    font-size: smaller;
+}

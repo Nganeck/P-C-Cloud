@@ -1,0 +1,10 @@
+.main{
+    background-color: #e7e0eb;
+
+    position: fixed;
+    left: 15%;
+    top: 7.5%;
+    min-width: 85%;
+    min-height: 92.5%;
+    justify-content: center;
+}

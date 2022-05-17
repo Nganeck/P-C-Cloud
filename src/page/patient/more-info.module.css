@@ -1,0 +1,17 @@
+.infoDiv{
+    position: relative;
+    margin: auto;
+    max-width: 500px;
+    aspect-ratio: 1/1;
+    margin-top: 5%;
+
+    background-color: red;
+}
+.header{
+    background-color: rgb(118, 118, 223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7.5%;
+    
+}
